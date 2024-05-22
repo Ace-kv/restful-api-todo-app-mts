@@ -1,7 +1,7 @@
 import { create, router as _router, defaults } from "json-server";
 
 const server = create();
-const router = _router("todos.json");
+const router = _router("db/todos.json");
 const middlewares = defaults();
 
 server.use(middlewares);
