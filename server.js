@@ -1,8 +1,8 @@
-import { create, router as _router, defaults } from "json-server";
+import jsonServer from 'json-server';
 
-const server = create();
-const router = _router("db/todos.json");
-const middlewares = defaults();
+const server = jsonServer.create();
+const router = jsonServer.router('db/todos.json'); // Ensure this path is correct
+const middlewares = jsonServer.defaults();
 
 server.use(middlewares);
 server.use(router);
