@@ -2,7 +2,6 @@
     "name": "restful-api-todo-app-mts",
     "version": "1.0.0",
     "type": "module",
-    "main": "index.js",
 	"dependencies": {
 		"json-server": "1.0.0-beta.0"
 	}
