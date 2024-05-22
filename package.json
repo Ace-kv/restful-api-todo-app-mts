@@ -1,6 +1,7 @@
 {
     "name": "restful-api-todo-app-mts",
     "version": "1.0.0",
+	"main": "server.js",
 	"scripts": {
         "start": "node server.js",
 		"json-server": "json-server db/todos.json"
